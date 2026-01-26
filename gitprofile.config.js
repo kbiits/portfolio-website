@@ -18,7 +18,7 @@ const config = {
     behance: '',
     medium: 'kbiits',
     dev: '',
-    website: 'https://nabiels.my.id',
+    website: 'https://nabiel.my.id',
     phone: '',
     email: 'nabilumarsyarif294@gmail.com',
   },
