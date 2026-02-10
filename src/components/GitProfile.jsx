@@ -179,16 +179,16 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <Blog
+                        loading={loading}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                        blog={sanitizedConfig.blog}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
-                      <Blog
-                        loading={loading}
-                        googleAnalytics={sanitizedConfig.googleAnalytics}
-                        blog={sanitizedConfig.blog}
                       />
                     </div>
                   </div>
