@@ -32,10 +32,16 @@ const config = {
   ],
   experiences: [
     {
+      company: 'Advance Intelligence Group',
+      position: 'Software Engineer',
+      from: 'Apr 2025',
+      to: 'Now',
+    },
+    {
       company: 'Flik',
       position: 'Software Engineer',
       from: 'Oct 2023',
-      to: 'Now',
+      to: 'Apr 2025',
     },
     {
       company: 'Danamas',
