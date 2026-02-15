@@ -108,8 +108,8 @@ const Details = ({ profile, loading, social, github }) => {
                 <ListItem
                   icon={<GrLinkedinOption className="mr-2" />}
                   title="LinkedIn:"
-                  value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
+                  value={social.linkedin.value}
+                  link={social.linkedin.link}
                 />
               )}
               {typeof social.dribbble !== 'undefined' && social.dribbble && (
@@ -156,8 +156,8 @@ const Details = ({ profile, loading, social, github }) => {
                 <ListItem
                   icon={<FaGlobe className="mr-2" />}
                   title="Website:"
-                  value={social.website}
-                  link={social.website}
+                  value={social.website.value}
+                  link={social.website.link}
                 />
               )}
               {typeof social.phone !== 'undefined' && social.phone && (

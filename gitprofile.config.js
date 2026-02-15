@@ -11,14 +11,20 @@ const config = {
     },
   },
   social: {
-    linkedin: 'nabiel',
+    linkedin: {
+      value: 'nabiel',
+      link: 'https://links.nabiel.my.id/linkedin?utm_source=personal-website&utm_medium=profile_section'
+    },
     twitter: '',
     facebook: '',
     dribbble: '',
     behance: '',
     medium: 'kbiits',
     dev: '',
-    website: 'https://nabiel.my.id',
+    website: {
+      value: 'https://nabiel.my.id',
+      link: 'https://links.nabiel.my.id/ghost?utm_source=personal-website&utm_medium=profile_section'
+    },
     phone: '',
     email: 'nabilumarsyarif294@gmail.com',
   },
